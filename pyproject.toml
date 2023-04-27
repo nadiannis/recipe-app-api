@@ -1,3 +1,4 @@
+# Black
 [tool.black]
 skip-string-normalization = true
 exclude = '''
@@ -9,6 +10,7 @@ exclude = '''
 )/
 '''
 
+# isort
 [tool.isort]
 profile = "black"
 multi_line_output = 3
