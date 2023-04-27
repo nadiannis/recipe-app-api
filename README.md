@@ -19,4 +19,4 @@ This is a recipe API built with Django REST Framework (DRF). It's built to learn
 - Containerization: [Docker](https://www.docker.com)
 - Continuous Integration: [GitHub Actions](https://github.com/features/actions)
 - Linter: [Flake8](https://flake8.pycqa.org)
-- Code Formatter: [Autopep8](https://pypi.org/project/autopep8)
+- Code Formatter: [Black](https://pypi.org/project/black) & [isort](https://pypi.org/project/isort)
