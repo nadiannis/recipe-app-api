@@ -3,6 +3,12 @@
   <h1>recipe-app-api</h1>
   <p>🍳 A recipe API built with Django REST Framework 🍳</p>
   <br>
+  <p align="center">
+    <a href="https://github.com/nadiannis/recipe-app-api/actions/workflows/checks.yml">
+      <img alt="Checks" src="https://github.com/nadiannis/recipe-app-api/actions/workflows/checks.yml/badge.svg">
+    </a>
+  </p>
+  <br>
 </div>
 
 ## Table of Contents
