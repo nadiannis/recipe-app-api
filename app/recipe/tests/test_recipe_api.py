@@ -3,13 +3,14 @@ Tests for the recipe API.
 """
 from decimal import Decimal
 
-from core.models import Recipe
 from django.contrib.auth import get_user_model
 from django.test import TestCase
 from django.urls import reverse
-from recipe.serializers import RecipeDetailSerializer, RecipeSerializer
 from rest_framework import status
 from rest_framework.test import APIClient
+
+from core.models import Recipe
+from recipe.serializers import RecipeDetailSerializer, RecipeSerializer
 
 RECIPES_URL = reverse('recipe:recipe-list')
 

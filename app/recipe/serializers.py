@@ -1,8 +1,9 @@
 """
 Serializers for recipe API.
 """
-from core.models import Recipe
 from rest_framework import serializers
+
+from core.models import Recipe
 
 
 class RecipeSerializer(serializers.ModelSerializer):

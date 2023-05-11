@@ -1,11 +1,12 @@
 """
 Views for the recipe API.
 """
-from core.models import Recipe
-from recipe import serializers
 from rest_framework import viewsets
 from rest_framework.authentication import TokenAuthentication
 from rest_framework.permissions import IsAuthenticated
+
+from core.models import Recipe
+from recipe import serializers
 
 
 class RecipeViewSet(viewsets.ModelViewSet):
